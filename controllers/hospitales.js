@@ -96,7 +96,7 @@ const borrarHospital = async(req, res = response) => {
         req.status(500).json({
             ok: false,
             msg: 'Hable con el administrador'
-        })
+        });
     } 
 }
 
